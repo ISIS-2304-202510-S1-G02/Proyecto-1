@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="epsandeserfinal" id="B8848FB0-E401-04E5-16F5-682579B7A0BE" version="3.5">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-14 01:58:02 UTC</createdTime>
+<ownerDesignName>modeloLogicoEPSAndes</ownerDesignName>
+<modelPersistence>2</modelPersistence>
+<capitalNames>false</capitalNames>
+<designId>B8848FB0-E401-04E5-16F5-682579B7A0BE</designId>
+</OSDM_Design>

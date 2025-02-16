@@ -1,0 +1,1852 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" mainViewID="03C6B892-81A7-1D90-284D-F56F68220519">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-14 01:58:03 UTC</createdTime>
+<ownerDesignName>modeloLogicoEPSAndes</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<Tables>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="170CAC23-7822-B21C-ACCA-5C66AF68F9C9" name="ServicioDeSalud">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>49CC690A-21B0-8C38-C18A-9BDB03C4B59C</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_servicio" id="C29B220A-B125-E95C-7860-AEE2C469F675">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>15F0BF87-0975-2322-D842-9D37F729D648</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="581C31CE-3471-22F2-8638-BBCD51F770FD">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>8A96F654-C10C-F1CF-8F45-82383DF4E968</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="6BAF48C4-31C2-E1A4-8AF4-3FA59EFA15BE">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>A8F35ABB-C57C-C497-20B0-BD60AC9B550C</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cita_ID_cita" id="466D7B55-FF0B-AB85-0851-4057A83105FD">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>EC585725-11BF-F6FA-0159-C64452943A68</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AE9F3E1-BB07-5F1D-79BB-1A03974E4FCF" referredColumn="71547C47-E5D3-849D-0187-483489AB6EF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F881346-D0C5-BB58-26BD-6113D810DD10" name="ServicioDeSalud_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>3191BE06-40E9-2D3F-D865-EDE2A2042301</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C29B220A-B125-E95C-7860-AEE2C469F675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BAA16C0-28C2-4914-46B8-C4410B8813A8" name="ServicioDeSalud__IDX">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>26A75FFC-669E-40F1-4804-3954CD1040C0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="466D7B55-FF0B-AB85-0851-4057A83105FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A2589CD-F109-5254-9641-DCEAAAC27BED" name="ServicioDeSalud_Cita_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>26A75FFC-669E-40F1-4804-3954CD1040C0</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="466D7B55-FF0B-AB85-0851-4057A83105FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2338FABD-E9BD-02A8-D1F6-B7273086F7C3" name="Cita">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>1BD8CA16-9FF5-2E91-9212-B317BA127207</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_cita" id="71547C47-E5D3-849D-0187-483489AB6EF9">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>CE5927D0-A0EF-1718-FB9D-CA2B871BA691</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servicio" id="6E20CC44-EDA1-8965-E31B-003609A3C3A0">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>5D059A7E-5F0F-E97F-6010-BBDF3ABD8235</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario" id="20B9BF85-163F-27BA-DE23-9F26900D9FC5">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>99484604-7647-56A4-7F46-E209E8409EFE</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vigencia" id="988A8F07-3FA0-30EF-1387-CFF69145AF08">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>415AD608-B719-7077-EA26-0961E12CDDB7</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoConsulta" id="BA10CCC9-00B2-D8D9-CFEC-1269E767AA17">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>A520EF81-80A2-208B-96C4-151F002904E1</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Afiliado_tipoDocumento" id="8CAE0C7B-E32C-DDEF-986A-99F5B13E125C">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>250A9817-5213-1E65-5243-EF201DDFF5F9</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBD801DA-2BC2-A8AB-D674-290F075173CC" referredColumn="A343516D-91B4-C2A3-3E9C-21B0460C7409"/>
+</associations>
+</Column>
+<Column name="Afiliado_numeroDocumento" id="C8FDA695-EF8E-E6B3-1F17-923A286919E3">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>395FF789-D565-49C4-C486-2B12574E0B74</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBD801DA-2BC2-A8AB-D674-290F075173CC" referredColumn="1DB1FD76-7484-DECC-3C01-D012628046E4"/>
+</associations>
+</Column>
+<Column name="IPS_NIT" id="28288F51-AAEC-98DB-0F5C-B76A2F6E9270">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>B048C6B8-2D98-8003-3EEA-114A9B899806</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93661DEB-2E4B-3CF8-2686-176CB9AFB05C" referredColumn="5A1109F7-B4B9-2244-227D-E3EA4EB1595C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58CBD9A2-C250-4581-425E-6F6A6C26D994" name="Cita_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>9359DADA-DBAA-E254-5F32-2BCDE63B5B7A</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71547C47-E5D3-849D-0187-483489AB6EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4561B52E-7970-2F87-1FF0-7653BB4E020C" name="Cita_IPS_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>24D47A0D-8EB9-5F62-9EEC-03ADBC59FDBD</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28288F51-AAEC-98DB-0F5C-B76A2F6E9270"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45428063-2267-04B1-0D8E-8F45EA73D9FF" name="Cita_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>C1999DFE-19A6-E4FF-408D-1D324079483C</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CAE0C7B-E32C-DDEF-986A-99F5B13E125C"/>
+<colUsage columnID="C8FDA695-EF8E-E6B3-1F17-923A286919E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C4CC2F6-C530-2F80-DB00-227AC8647529" name="Orden_De_Servicio">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>23EEDF3F-F7E4-C520-6007-D61F6C4EC9ED</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_orden" id="D91097B0-E86E-E7C5-0F12-9FC9BA2D29E9">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>C15FC7F5-9E69-164D-984F-DAECBFBEA307</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="BD413B8C-FB58-A173-4928-ACFA746032A2">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>91B57412-D94F-DFD3-20F7-2350D85B23A2</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="69EF9233-680D-3497-406A-E2679F3607D3">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>949718DC-CCFE-B7F0-CA7C-AE7666B63352</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Afiliado_tipoDocumento" id="CBE4EAA1-DE30-C92D-193A-561B77718AFF">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>D4A30980-9D47-414F-C5A6-512DF1F3A805</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="569E5CD8-5223-DAF9-F1F1-B40B965226F9" referredColumn="A343516D-91B4-C2A3-3E9C-21B0460C7409"/>
+</associations>
+</Column>
+<Column name="Afiliado_numeroDocumento" id="A7710072-D7CD-E84B-2510-DFEFD4486CCB">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>F90A8D98-FA53-5068-C977-DDD547954A46</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="569E5CD8-5223-DAF9-F1F1-B40B965226F9" referredColumn="1DB1FD76-7484-DECC-3C01-D012628046E4"/>
+</associations>
+</Column>
+<Column name="PrestacionDeServicio_ID_prestacion" id="95339D23-A978-717D-D138-C2463E630A98">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>967A8E47-D650-FCAF-3FCF-86FD232C77F9</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A34B96C5-690C-0961-66C7-29A52DD2A143" referredColumn="B9F3F28C-AE23-CF8F-9CD3-038AA1EB65C6"/>
+</associations>
+</Column>
+<Column name="PrestacionDeServicio_ServicioDeSalud_ID_servicio" id="1887DDC4-DDAE-FFE1-55BF-19408A7B8C0C">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>592350F6-501A-C355-AD47-058A77F793D0</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A34B96C5-690C-0961-66C7-29A52DD2A143" referredColumn="26A3A5C8-C659-65C1-EF89-F313D01FDCB0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D60631B-7DA7-20DC-1A2B-DBF7D6A62426" name="Orden_De_Servicio_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>86B5E4AB-3202-AB45-A4CC-0DDD18D6855F</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91097B0-E86E-E7C5-0F12-9FC9BA2D29E9"/>
+<colUsage columnID="CBE4EAA1-DE30-C92D-193A-561B77718AFF"/>
+<colUsage columnID="A7710072-D7CD-E84B-2510-DFEFD4486CCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5811CD3B-BF52-5585-BB33-75CE8123B634" name="Orden_De_Servicio__IDX">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>906304C0-E295-91B1-7F9D-A4BC1F933813</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="95339D23-A978-717D-D138-C2463E630A98"/>
+<colUsage columnID="1887DDC4-DDAE-FFE1-55BF-19408A7B8C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3453EEA8-CA23-86C3-D2F2-5C254DD2BCA0" name="Orden_De_Servicio_PrestacionDeServicio_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>906304C0-E295-91B1-7F9D-A4BC1F933813</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95339D23-A978-717D-D138-C2463E630A98"/>
+<colUsage columnID="1887DDC4-DDAE-FFE1-55BF-19408A7B8C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D57A60EE-B6AB-1259-7215-7120F107D292" name="Orden_De_Servicio_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>EC108D13-A5C3-3042-B92D-C9733B6E038D</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBE4EAA1-DE30-C92D-193A-561B77718AFF"/>
+<colUsage columnID="A7710072-D7CD-E84B-2510-DFEFD4486CCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52E788A1-77A4-61E4-960D-2CC1F053ADA9" name="Especialidad">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>A0FCE431-7819-B2DF-185D-379E2B3B0395</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_especialidad" id="5B0C0E04-47BD-E0AB-8B62-C6CB5D9EA615">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>911B43ED-DE8D-E6D9-E3D1-3E08A5F95564</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CFAFD481-DFC8-A7BF-8D3F-5A773043DE82">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>98EA5515-B961-2EC2-FA60-C624CF82F729</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19536AA2-B5A4-1E43-E21B-D3AA75DEB4DA" name="Especialidad_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>F44C7646-F371-4304-E2B7-52E833D2537A</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B0C0E04-47BD-E0AB-8B62-C6CB5D9EA615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E16E64A-C5AD-B86A-71DB-69DF300DAC3A" name="RecetaMedica">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>66DCD95F-E6FD-A2B1-B7C2-E04E337FC787</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_receta" id="F3BA9B68-F85B-4F44-BF6F-C50623A64EBC">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>AA3E5933-862F-41F8-D427-D40CF47947E5</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="C13198FB-C78E-0544-75E2-4B563183A377">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>445C046F-6BD6-D153-C3B0-F6D3E6D2D1F7</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="5C15C219-3CC2-F826-51CA-E1864B6B6267">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>D5441C7A-40A2-580A-31FE-E0CF3164A1BC</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medicamento" id="3097BB43-6289-731C-F1C7-1B00A417537D">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>46A966BC-479F-51A4-B9F0-9FA9E2000CE1</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Medico_identificacion" id="4344F97A-601A-7E33-82CE-8F5321C31CD8">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>10E4B1E7-A29F-69DF-7CB0-80603C66888F</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA534E65-1E0A-F1D1-2FA8-A3C87F3AA0B0" referredColumn="B8B9319E-8559-74E6-4172-1EF346BA55F1"/>
+</associations>
+</Column>
+<Column name="Medico_Especialidad_ID_especialidad" id="D4664859-6857-F79A-DEB4-E58F3299E343">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>EC407270-B1A1-CEC7-456C-27B232E56C84</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA534E65-1E0A-F1D1-2FA8-A3C87F3AA0B0" referredColumn="6C3377E2-0B19-C114-ED52-6BF66F4E8BC2"/>
+</associations>
+</Column>
+<Column name="Afiliado_tipoDocumento" id="F7AC2834-69AE-41A6-C041-50C84E54A947">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>676BCC07-C944-F1B4-CD16-1C54AF76FDDE</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="458ADD3D-327C-C6A8-F46F-1CA7FE653916" referredColumn="A343516D-91B4-C2A3-3E9C-21B0460C7409"/>
+</associations>
+</Column>
+<Column name="Afiliado_numeroDocumento" id="F3EB2F45-05B6-7C53-3CD0-5D9E03B4E035">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>A214E765-D2FB-97EB-F480-08196CBFAEF3</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="458ADD3D-327C-C6A8-F46F-1CA7FE653916" referredColumn="1DB1FD76-7484-DECC-3C01-D012628046E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECB94BDF-4F43-E852-CF8F-E180B44F0B9D" name="RecetaMedica_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>F39B38C3-35BB-134F-CEF8-064925038426</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3BA9B68-F85B-4F44-BF6F-C50623A64EBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C36CA39-B1B0-95B6-EDCB-9167175A23E9" name="RecetaMedica_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>B0B5AE5D-A7C9-C208-6E75-72579E996EF4</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7AC2834-69AE-41A6-C041-50C84E54A947"/>
+<colUsage columnID="F3EB2F45-05B6-7C53-3CD0-5D9E03B4E035"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D234FC55-DE00-4DE7-BA54-BB8539CC5453" name="RecetaMedica_Medico_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>0C868778-6FAF-CF99-ED9F-43551BDF0E7B</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4344F97A-601A-7E33-82CE-8F5321C31CD8"/>
+<colUsage columnID="D4664859-6857-F79A-DEB4-E58F3299E343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84E69227-57FB-D5D8-6CCD-A1D1339A8D2F" name="PrestacionDeServicio">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>07164267-AB07-D861-9348-779A1F2F6552</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_prestacion" id="B9F3F28C-AE23-CF8F-9CD3-038AA1EB65C6">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>95C8E715-6D16-B6B0-855D-0FA2EDE36B7A</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servicioRealizado" id="F266FA7C-CF6C-6EB8-1DDB-0CC7BF8ECE1B">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>D9BE961F-59A8-D4AA-B4E6-A104D7B3F81A</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ServicioDeSalud_ID_servicio" id="26A3A5C8-C659-65C1-EF89-F313D01FDCB0">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>91DC9D84-6C4D-CCF1-FC7B-9D5C5620A30B</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F5D542A-FB6F-4CA3-DFD0-40AC8737A57C" referredColumn="C29B220A-B125-E95C-7860-AEE2C469F675"/>
+</associations>
+</Column>
+<Column name="Cita_ID_cita" id="4A631D06-CFC8-853C-EDD1-E77BD13A3ACA">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>88088E15-A18C-F3BC-B8CC-F004A02E9087</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7538AC64-10A4-F3CC-6BB1-74FC3C264B2A" referredColumn="71547C47-E5D3-849D-0187-483489AB6EF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23558400-1E3E-594B-EB55-9A7334C04C6B" name="PrestacionDeServicio_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>EBC6651A-0EDF-5A4E-5C51-CC8BB1C6CB56</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9F3F28C-AE23-CF8F-9CD3-038AA1EB65C6"/>
+<colUsage columnID="26A3A5C8-C659-65C1-EF89-F313D01FDCB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="560692D8-EB9D-015F-A9EE-10714568396E" name="PrestacionDeServicio__IDX">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2570D341-C184-188B-BBC9-255AC1D4105A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4A631D06-CFC8-853C-EDD1-E77BD13A3ACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="956AD0BC-6A2E-484D-A8FE-BA3AD513C87E" name="PrestacionDeServicio_Cita_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>2570D341-C184-188B-BBC9-255AC1D4105A</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A631D06-CFC8-853C-EDD1-E77BD13A3ACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D686DB98-D7EC-DFC4-64B6-DF14471E5834" name="PrestacionDeServicio_ServicioDeSalud_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>94D4B6E6-6EB0-2BD1-03DF-D3EB1337DA14</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26A3A5C8-C659-65C1-EF89-F313D01FDCB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91764A63-3ADF-62E7-8EBB-CD07C3BFACBB" name="Hospitalización">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>DC9D4E4E-71BE-FCF9-FE2F-54AA23D033A0</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_hospitalizacion" id="E96D6CFD-9755-C255-4818-D78931CF8F63">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>E44791F8-2544-535F-3C1D-FD0B75E4991F</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaInicio" id="74B3138D-32A1-1A2D-3605-6986A4281D19">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>3D79A43D-B56A-050F-B988-86DA2D55CA6D</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaFin" id="2EECF632-3A2C-781E-405F-6D22BFFD7E11">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>A2107C9C-333C-5857-653A-3C5F311B2B2B</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razon" id="88ED2B18-657A-3BDC-BC70-947BDE3FAFFB">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>8550D946-326D-4532-A967-A32F645B8997</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diagnostico" id="F628089A-1E35-B069-4F43-576584C9072E">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>FCF8E908-EDBF-72DE-94F1-FCDF41FD07CE</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Afiliado_tipoDocumento" id="56853231-87E1-2B90-54EA-604C1825BE88">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>E48FD46D-7B8E-4D66-EDC0-58937432BC4C</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9CEF8E5-ABE5-6E73-D528-3E545BC64C9E" referredColumn="A343516D-91B4-C2A3-3E9C-21B0460C7409"/>
+</associations>
+</Column>
+<Column name="Afiliado_numeroDocumento" id="FF7C0977-18DD-556A-965B-F8379BF063D6">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>65F824BB-06C8-C7C6-EDE1-1EC4BDE4B52A</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9CEF8E5-ABE5-6E73-D528-3E545BC64C9E" referredColumn="1DB1FD76-7484-DECC-3C01-D012628046E4"/>
+</associations>
+</Column>
+<Column name="Medico_identificacion" id="F6F109A8-DCC2-1926-B46B-E463CB4EA2FC">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>04C6D6FA-F1C0-65A7-1F45-558315DBD8B6</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28F7F6F5-2974-CA4F-74A3-02551253CC6E" referredColumn="B8B9319E-8559-74E6-4172-1EF346BA55F1"/>
+</associations>
+</Column>
+<Column name="Medico_Especialidad_ID_especialidad" id="DBFF1E5A-FA2E-193B-C271-D8B5F26986A5">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>5756160B-F4A7-B36D-B83C-09E94C8ED110</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28F7F6F5-2974-CA4F-74A3-02551253CC6E" referredColumn="6C3377E2-0B19-C114-ED52-6BF66F4E8BC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E5B292E-2902-B2A1-E9C0-E86F23E451ED" name="Hospitalización_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>EA54F777-57CA-E2C9-8B0C-8EC8C9CB6721</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E96D6CFD-9755-C255-4818-D78931CF8F63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50A4F296-EC4A-8E65-3BDA-9C130BE15ECB" name="Hospitalización_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>81F2A6F6-78D0-DEBC-358D-A9BAAEAEC8AD</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56853231-87E1-2B90-54EA-604C1825BE88"/>
+<colUsage columnID="FF7C0977-18DD-556A-965B-F8379BF063D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="620952EF-4D22-C682-E748-6387A9C98EBC" name="Hospitalización_Medico_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>6ECA4009-CBD0-BF56-25B2-8EC0B3669493</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6F109A8-DCC2-1926-B46B-E463CB4EA2FC"/>
+<colUsage columnID="DBFF1E5A-FA2E-193B-C271-D8B5F26986A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95B89AE1-7FD8-1B8B-D955-FD2A93A564B8" name="serviciosIps">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IPS_NIT" id="1D6C5A5D-C49C-C8E8-1F49-E2A8A0F117C1">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49B6A6E8-AC52-4B31-BC17-5B9D3ED90D9B" referredColumn="5A1109F7-B4B9-2244-227D-E3EA4EB1595C"/>
+</associations>
+</Column>
+<Column name="ServicioDeSalud_ID_servicio" id="3A69630F-3BCB-C90E-D816-333328015B8B">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC5BDC6E-9EF8-B635-7132-86EBB049577F" referredColumn="C29B220A-B125-E95C-7860-AEE2C469F675"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1CECD28-55F1-03C8-30E2-8E6F11D0E9E9" name="serviciosIps_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D6C5A5D-C49C-C8E8-1F49-E2A8A0F117C1"/>
+<colUsage columnID="3A69630F-3BCB-C90E-D816-333328015B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="810AEBDA-EC17-F1EC-43E9-CCA8A411C099" name="serviciosIps_IPS_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>6CB109C0-FB23-5114-9B4A-3D2122821C1B</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D6C5A5D-C49C-C8E8-1F49-E2A8A0F117C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D3E4A68-D2CE-3E33-A18C-C094765E5E3C" name="serviciosIps_ServicioDeSalud_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>6CB109C0-FB23-5114-9B4A-3D2122821C1B</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A69630F-3BCB-C90E-D816-333328015B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC73E09A-C9A8-235D-1EA2-E26C3FA8C3C3" name="Afiliado">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>EBB25C1A-CA3C-E3C1-A745-E7FE0F2C6477</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipoDocumento" id="A343516D-91B4-C2A3-3E9C-21B0460C7409">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>7FF85ED2-DE62-D5A6-FCFC-07E1922C6795</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroDocumento" id="1DB1FD76-7484-DECC-3C01-D012628046E4">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>9B2EBD76-9091-F9E2-AC69-71E06C57FF7D</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="32199BFC-5CD4-985F-5EFE-33A9BBBDE0A2">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>D9ADCA8D-B8D3-7655-F9DA-4C5924A689EF</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="96A90370-F162-4E6C-5789-33F007409E93">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>FE341BC3-0F07-8768-CEC4-AC4D7A7563D4</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaDeNacimiento" id="82E06EBC-FC1F-477E-099F-BC55AAAF3122">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>40640728-7D0C-A5BA-6392-F98F62845EFA</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="0CFE2DAA-5E10-D251-CE58-2333D6633581">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>45A4977D-E420-D7CA-F586-8A82E13C7353</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="955206BD-094A-E4F1-911C-24634B086543">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>1A1223AE-B07D-825D-7F9B-E21741A1649F</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="6B18FB3E-1913-E1D5-E8C5-E7CA90E00D9D">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>A0407D2A-56CE-D53E-5825-9D59B2621DEB</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relacion" id="A4987ED6-A87C-9E44-1221-3908D9B01860">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>686B4C79-B084-F21E-CC12-9F62BC0EFFB1</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Afiliado_tipoDocumento" id="C8AFE44A-79BF-5E5A-5E53-0B1FEA929DBF">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>D3D1DE0D-C6AA-1D48-97D9-6E51EBFC68DE</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94D80D31-E398-5E76-5555-D58D36AE783C" referredColumn="A343516D-91B4-C2A3-3E9C-21B0460C7409"/>
+</associations>
+</Column>
+<Column name="Afiliado_numeroDocumento" id="6D49E263-D46B-E826-B26B-9D0DE65277A0">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>CE9EEC87-D639-9132-1DDD-6AC42429427D</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94D80D31-E398-5E76-5555-D58D36AE783C" referredColumn="1DB1FD76-7484-DECC-3C01-D012628046E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A33285DD-74CA-4098-F4B4-AE806FF30DBB" name="Afiliado_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>64C302FC-D112-DCDF-CDC3-771F6C23D412</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A343516D-91B4-C2A3-3E9C-21B0460C7409"/>
+<colUsage columnID="1DB1FD76-7484-DECC-3C01-D012628046E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B94258F1-F337-751B-AD0C-EB0A3BB04D67" name="Afiliado_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>F4F0A4B7-B52D-272C-DC21-8F9A1DA80E3F</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8AFE44A-79BF-5E5A-5E53-0B1FEA929DBF"/>
+<colUsage columnID="6D49E263-D46B-E826-B26B-9D0DE65277A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D80BAD62-D54C-8AD7-C0FC-5E3DA16ABB59" name="IPS">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>495346F6-5492-987D-94AD-4F40E5120449</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIT" id="5A1109F7-B4B9-2244-227D-E3EA4EB1595C">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>EBB53842-6767-D884-4B51-2465BBE8D60F</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E7E36ED2-EB0C-8A0A-9310-8DD1C00BCE3C">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>C0F6B088-C786-C48B-9ACE-3D38EF5CAE79</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="8A5CD7BF-B350-4679-F784-F01F1C12BAC6">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>0BE4BDE0-EC3A-B44D-3A9B-D7AA94AC061E</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="92967EFC-211A-DF88-23D5-6615648A239E">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>8EE5F0ED-376E-9688-8403-99D70E4849D1</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="serviciosDeSalud" id="EE828851-E310-5899-C975-13F0F1E15F14">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>B8139E2C-574B-9FF4-B640-8CBCD072338F</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6D91709-9315-0183-956D-CE60F3EF1B05" name="IPS_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>388D7873-A1F0-61C8-D71C-CFB6D8F84998</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A1109F7-B4B9-2244-227D-E3EA4EB1595C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4A8690A-1E1D-1C09-7FA4-48529E8A0E82" name="ipsMedicos">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Medico_identificacion" id="C569D56D-9655-096A-2F90-B0A6283A48D4">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57FE5583-205B-1AC9-C28E-19BD118FAC45" referredColumn="B8B9319E-8559-74E6-4172-1EF346BA55F1"/>
+</associations>
+</Column>
+<Column name="Medico_Especialidad_ID_especialidad" id="7A69C9E9-2E8E-5FE0-30A7-E6B520757BA5">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57FE5583-205B-1AC9-C28E-19BD118FAC45" referredColumn="6C3377E2-0B19-C114-ED52-6BF66F4E8BC2"/>
+</associations>
+</Column>
+<Column name="IPS_NIT" id="9AA5C9B8-76D9-A81A-58CA-19F36AD2632B">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="068137BC-6228-EB88-A6A9-B79260C1D8CC" referredColumn="5A1109F7-B4B9-2244-227D-E3EA4EB1595C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADD2E209-D409-0F7A-860B-535660865CD4" name="ipsMedicos_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C569D56D-9655-096A-2F90-B0A6283A48D4"/>
+<colUsage columnID="7A69C9E9-2E8E-5FE0-30A7-E6B520757BA5"/>
+<colUsage columnID="9AA5C9B8-76D9-A81A-58CA-19F36AD2632B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E0DE7E8-D7B4-9010-BD57-C834EF11C824" name="ipsMedicos_Medico_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>7423C9D1-C865-A9DE-81E3-96128CD01F94</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C569D56D-9655-096A-2F90-B0A6283A48D4"/>
+<colUsage columnID="7A69C9E9-2E8E-5FE0-30A7-E6B520757BA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D5D1873-8EA9-9889-F647-CD0B5B8AC698" name="ipsMedicos_IPS_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>7423C9D1-C865-A9DE-81E3-96128CD01F94</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AA5C9B8-76D9-A81A-58CA-19F36AD2632B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB5F75D4-2F7A-8966-935B-DC32B0215A49" name="Medico">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>873B8362-A023-9CA9-4199-7A0F9D653683</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="A5F849F7-4A9B-011E-A393-07CEA44D442D">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>ED51E670-3190-7700-2381-1AC89E910F26</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificacion" id="B8B9319E-8559-74E6-4172-1EF346BA55F1">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>F4BDBC3C-2399-760E-BE51-FC20DFBB7FFC</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroRegistroMedico" id="F7A61145-B118-D566-6D78-F6B61A47834D">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>BD63468C-7D32-3A89-4120-81B6D02ABCF9</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especialidad_ID_especialidad" id="6C3377E2-0B19-C114-ED52-6BF66F4E8BC2">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>47AFB65F-CDAC-926A-DE94-6F5A43484A26</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05B347C0-57F7-6AE2-86DC-DBDDCB54FE4C" referredColumn="5B0C0E04-47BD-E0AB-8B62-C6CB5D9EA615"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="757FD905-8BB6-05F7-7F1C-AF3B4ACA1F8E" name="Medico_PK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:31 UTC</createdTime>
+<generatorID>32596C1B-F8B0-FC78-195D-63C5440468AC</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8B9319E-8559-74E6-4172-1EF346BA55F1"/>
+<colUsage columnID="6C3377E2-0B19-C114-ED52-6BF66F4E8BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D11A3A69-98B7-F116-2902-DB8672E78E84" name="Medico_Especialidad_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>C185B696-CCCE-39C3-6126-3F68EC5794AE</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C3377E2-0B19-C114-ED52-6BF66F4E8BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
+</Tables>
+<ForeignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="05B347C0-57F7-6AE2-86DC-DBDDCB54FE4C" containerWithKeyObject="FB5F75D4-2F7A-8966-935B-DC32B0215A49" localFKIndex="D11A3A69-98B7-F116-2902-DB8672E78E84" name="Medico_Especialidad_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>C185B696-CCCE-39C3-6126-3F68EC5794AE</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Especialidad</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>52E788A1-77A4-61E4-960D-2CC1F053ADA9</referredTableID>
+<keyObject>19536AA2-B5A4-1E43-E21B-D3AA75DEB4DA</keyObject>
+<referredKeyID>19536AA2-B5A4-1E43-E21B-D3AA75DEB4DA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_especialidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="068137BC-6228-EB88-A6A9-B79260C1D8CC" containerWithKeyObject="E4A8690A-1E1D-1C09-7FA4-48529E8A0E82" localFKIndex="4D5D1873-8EA9-9889-F647-CD0B5B8AC698" name="ipsMedicos_IPS_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>7423C9D1-C865-A9DE-81E3-96128CD01F94</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>IPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D80BAD62-D54C-8AD7-C0FC-5E3DA16ABB59</referredTableID>
+<keyObject>B6D91709-9315-0183-956D-CE60F3EF1B05</keyObject>
+<referredKeyID>B6D91709-9315-0183-956D-CE60F3EF1B05</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1AE9F3E1-BB07-5F1D-79BB-1A03974E4FCF" containerWithKeyObject="170CAC23-7822-B21C-ACCA-5C66AF68F9C9" localFKIndex="4A2589CD-F109-5254-9641-DCEAAAC27BED" name="ServicioDeSalud_Cita_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>26A75FFC-669E-40F1-4804-3954CD1040C0</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Cita</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2338FABD-E9BD-02A8-D1F6-B7273086F7C3</referredTableID>
+<keyObject>58CBD9A2-C250-4581-425E-6F6A6C26D994</keyObject>
+<referredKeyID>58CBD9A2-C250-4581-425E-6F6A6C26D994</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_cita</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28F7F6F5-2974-CA4F-74A3-02551253CC6E" containerWithKeyObject="91764A63-3ADF-62E7-8EBB-CD07C3BFACBB" localFKIndex="620952EF-4D22-C682-E748-6387A9C98EBC" name="Hospitalización_Medico_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>6ECA4009-CBD0-BF56-25B2-8EC0B3669493</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Medico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB5F75D4-2F7A-8966-935B-DC32B0215A49</referredTableID>
+<keyObject>757FD905-8BB6-05F7-7F1C-AF3B4ACA1F8E</keyObject>
+<referredKeyID>757FD905-8BB6-05F7-7F1C-AF3B4ACA1F8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>identificacion,Especialidad_ID_especialidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="458ADD3D-327C-C6A8-F46F-1CA7FE653916" containerWithKeyObject="5E16E64A-C5AD-B86A-71DB-69DF300DAC3A" localFKIndex="9C36CA39-B1B0-95B6-EDCB-9167175A23E9" name="RecetaMedica_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>B0B5AE5D-A7C9-C208-6E75-72579E996EF4</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Afiliado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC73E09A-C9A8-235D-1EA2-E26C3FA8C3C3</referredTableID>
+<keyObject>A33285DD-74CA-4098-F4B4-AE806FF30DBB</keyObject>
+<referredKeyID>A33285DD-74CA-4098-F4B4-AE806FF30DBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tipoDocumento,numeroDocumento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49B6A6E8-AC52-4B31-BC17-5B9D3ED90D9B" containerWithKeyObject="95B89AE1-7FD8-1B8B-D955-FD2A93A564B8" localFKIndex="810AEBDA-EC17-F1EC-43E9-CCA8A411C099" name="serviciosIps_IPS_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>6CB109C0-FB23-5114-9B4A-3D2122821C1B</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>IPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D80BAD62-D54C-8AD7-C0FC-5E3DA16ABB59</referredTableID>
+<keyObject>B6D91709-9315-0183-956D-CE60F3EF1B05</keyObject>
+<referredKeyID>B6D91709-9315-0183-956D-CE60F3EF1B05</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="569E5CD8-5223-DAF9-F1F1-B40B965226F9" containerWithKeyObject="3C4CC2F6-C530-2F80-DB00-227AC8647529" localFKIndex="D57A60EE-B6AB-1259-7215-7120F107D292" name="Orden_De_Servicio_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>EC108D13-A5C3-3042-B92D-C9733B6E038D</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Afiliado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC73E09A-C9A8-235D-1EA2-E26C3FA8C3C3</referredTableID>
+<keyObject>A33285DD-74CA-4098-F4B4-AE806FF30DBB</keyObject>
+<referredKeyID>A33285DD-74CA-4098-F4B4-AE806FF30DBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tipoDocumento,numeroDocumento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57FE5583-205B-1AC9-C28E-19BD118FAC45" containerWithKeyObject="E4A8690A-1E1D-1C09-7FA4-48529E8A0E82" localFKIndex="1E0DE7E8-D7B4-9010-BD57-C834EF11C824" name="ipsMedicos_Medico_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>7423C9D1-C865-A9DE-81E3-96128CD01F94</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Medico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB5F75D4-2F7A-8966-935B-DC32B0215A49</referredTableID>
+<keyObject>757FD905-8BB6-05F7-7F1C-AF3B4ACA1F8E</keyObject>
+<referredKeyID>757FD905-8BB6-05F7-7F1C-AF3B4ACA1F8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>identificacion,Especialidad_ID_especialidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7538AC64-10A4-F3CC-6BB1-74FC3C264B2A" containerWithKeyObject="84E69227-57FB-D5D8-6CCD-A1D1339A8D2F" localFKIndex="956AD0BC-6A2E-484D-A8FE-BA3AD513C87E" name="PrestacionDeServicio_Cita_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>2570D341-C184-188B-BBC9-255AC1D4105A</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Cita</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2338FABD-E9BD-02A8-D1F6-B7273086F7C3</referredTableID>
+<keyObject>58CBD9A2-C250-4581-425E-6F6A6C26D994</keyObject>
+<referredKeyID>58CBD9A2-C250-4581-425E-6F6A6C26D994</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_cita</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F5D542A-FB6F-4CA3-DFD0-40AC8737A57C" containerWithKeyObject="84E69227-57FB-D5D8-6CCD-A1D1339A8D2F" localFKIndex="D686DB98-D7EC-DFC4-64B6-DF14471E5834" name="PrestacionDeServicio_ServicioDeSalud_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>94D4B6E6-6EB0-2BD1-03DF-D3EB1337DA14</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>ServicioDeSalud</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>170CAC23-7822-B21C-ACCA-5C66AF68F9C9</referredTableID>
+<keyObject>7F881346-D0C5-BB58-26BD-6113D810DD10</keyObject>
+<referredKeyID>7F881346-D0C5-BB58-26BD-6113D810DD10</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_servicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93661DEB-2E4B-3CF8-2686-176CB9AFB05C" containerWithKeyObject="2338FABD-E9BD-02A8-D1F6-B7273086F7C3" localFKIndex="4561B52E-7970-2F87-1FF0-7653BB4E020C" name="Cita_IPS_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>24D47A0D-8EB9-5F62-9EEC-03ADBC59FDBD</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>IPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D80BAD62-D54C-8AD7-C0FC-5E3DA16ABB59</referredTableID>
+<keyObject>B6D91709-9315-0183-956D-CE60F3EF1B05</keyObject>
+<referredKeyID>B6D91709-9315-0183-956D-CE60F3EF1B05</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94D80D31-E398-5E76-5555-D58D36AE783C" containerWithKeyObject="CC73E09A-C9A8-235D-1EA2-E26C3FA8C3C3" localFKIndex="B94258F1-F337-751B-AD0C-EB0A3BB04D67" name="Afiliado_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>F4F0A4B7-B52D-272C-DC21-8F9A1DA80E3F</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Afiliado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC73E09A-C9A8-235D-1EA2-E26C3FA8C3C3</referredTableID>
+<keyObject>A33285DD-74CA-4098-F4B4-AE806FF30DBB</keyObject>
+<referredKeyID>A33285DD-74CA-4098-F4B4-AE806FF30DBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tipoDocumento,numeroDocumento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A34B96C5-690C-0961-66C7-29A52DD2A143" containerWithKeyObject="3C4CC2F6-C530-2F80-DB00-227AC8647529" localFKIndex="3453EEA8-CA23-86C3-D2F2-5C254DD2BCA0" name="Orden_De_Servicio_PrestacionDeServicio_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>906304C0-E295-91B1-7F9D-A4BC1F933813</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>PrestacionDeServicio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84E69227-57FB-D5D8-6CCD-A1D1339A8D2F</referredTableID>
+<keyObject>23558400-1E3E-594B-EB55-9A7334C04C6B</keyObject>
+<referredKeyID>23558400-1E3E-594B-EB55-9A7334C04C6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_prestacion,ServicioDeSalud_ID_servicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9CEF8E5-ABE5-6E73-D528-3E545BC64C9E" containerWithKeyObject="91764A63-3ADF-62E7-8EBB-CD07C3BFACBB" localFKIndex="50A4F296-EC4A-8E65-3BDA-9C130BE15ECB" name="Hospitalización_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>81F2A6F6-78D0-DEBC-358D-A9BAAEAEC8AD</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Afiliado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC73E09A-C9A8-235D-1EA2-E26C3FA8C3C3</referredTableID>
+<keyObject>A33285DD-74CA-4098-F4B4-AE806FF30DBB</keyObject>
+<referredKeyID>A33285DD-74CA-4098-F4B4-AE806FF30DBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tipoDocumento,numeroDocumento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA534E65-1E0A-F1D1-2FA8-A3C87F3AA0B0" containerWithKeyObject="5E16E64A-C5AD-B86A-71DB-69DF300DAC3A" localFKIndex="D234FC55-DE00-4DE7-BA54-BB8539CC5453" name="RecetaMedica_Medico_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>0C868778-6FAF-CF99-ED9F-43551BDF0E7B</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Medico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB5F75D4-2F7A-8966-935B-DC32B0215A49</referredTableID>
+<keyObject>757FD905-8BB6-05F7-7F1C-AF3B4ACA1F8E</keyObject>
+<referredKeyID>757FD905-8BB6-05F7-7F1C-AF3B4ACA1F8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>identificacion,Especialidad_ID_especialidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC5BDC6E-9EF8-B635-7132-86EBB049577F" containerWithKeyObject="95B89AE1-7FD8-1B8B-D955-FD2A93A564B8" localFKIndex="1D3E4A68-D2CE-3E33-A18C-C094765E5E3C" name="serviciosIps_ServicioDeSalud_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>6CB109C0-FB23-5114-9B4A-3D2122821C1B</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>ServicioDeSalud</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>170CAC23-7822-B21C-ACCA-5C66AF68F9C9</referredTableID>
+<keyObject>7F881346-D0C5-BB58-26BD-6113D810DD10</keyObject>
+<referredKeyID>7F881346-D0C5-BB58-26BD-6113D810DD10</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_servicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBD801DA-2BC2-A8AB-D674-290F075173CC" containerWithKeyObject="2338FABD-E9BD-02A8-D1F6-B7273086F7C3" localFKIndex="45428063-2267-04B1-0D8E-8F45EA73D9FF" name="Cita_Afiliado_FK">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 16:57:32 UTC</createdTime>
+<generatorID>C1999DFE-19A6-E4FF-408D-1D324079483C</generatorID>
+<ownerDesignName>epsandeserfinal</ownerDesignName>
+<referredTableLongName>Afiliado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC73E09A-C9A8-235D-1EA2-E26C3FA8C3C3</referredTableID>
+<keyObject>A33285DD-74CA-4098-F4B4-AE806FF30DBB</keyObject>
+<referredKeyID>A33285DD-74CA-4098-F4B4-AE806FF30DBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tipoDocumento,numeroDocumento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</ForeignKey>
+</ForeignKeys>
+<mainView class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="03C6B892-81A7-1D90-284D-F56F68220519">
+<createdBy>dialm</createdBy>
+<modifiedBy>dialm</modifiedBy>
+<createdTime>2025-02-14 02:44:08 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="170CAC23-7822-B21C-ACCA-5C66AF68F9C9" otype="Table" vid="17DAB447-3398-D1C0-FF03-05A9A8A997D8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="852" y="489" width="170" height="112"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2338FABD-E9BD-02A8-D1F6-B7273086F7C3" otype="Table" vid="ED97B599-51AE-EA82-E241-66800DBC39B9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="245" y="556" width="170" height="112"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3C4CC2F6-C530-2F80-DB00-227AC8647529" otype="Table" vid="4BAC7F02-12E3-A71B-200C-98175037DC56">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="600" y="343" width="170" height="112"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="52E788A1-77A4-61E4-960D-2CC1F053ADA9" otype="Table" vid="581685F8-E45D-5248-ECDB-A349837EFE52">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1551" y="384" width="170" height="111"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="5E16E64A-C5AD-B86A-71DB-69DF300DAC3A" otype="Table" vid="47E953A9-5A9F-1F26-CAF7-E5124394F0A4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="734" y="215" width="170" height="111"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="84E69227-57FB-D5D8-6CCD-A1D1339A8D2F" otype="Table" vid="B7CF2DC4-9DC7-3626-4A26-F92348823C4A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="442" y="426" width="170" height="112"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="91764A63-3ADF-62E7-8EBB-CD07C3BFACBB" otype="Table" vid="85E5A72E-644A-3CFD-6D63-B88E43B2ACEA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="472" y="19" width="170" height="111"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="95B89AE1-7FD8-1B8B-D955-FD2A93A564B8" otype="Table" vid="E76AFEF4-E345-D64D-A795-3ED63A65A79F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="959" y="708" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="CC73E09A-C9A8-235D-1EA2-E26C3FA8C3C3" otype="Table" vid="3CA579C4-477A-36B9-7228-11E6FCBFF490">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="240" y="307" width="170" height="159"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D80BAD62-D54C-8AD7-C0FC-5E3DA16ABB59" otype="Table" vid="9196E64D-3312-7B45-FBBD-3D2B03110EF9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="612" y="737" width="170" height="112"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E4A8690A-1E1D-1C09-7FA4-48529E8A0E82" otype="Table" vid="D5B05A90-790B-CE42-8D61-5D1A27339B52">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="841" y="323" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FB5F75D4-2F7A-8966-935B-DC32B0215A49" otype="Table" vid="1291ED00-3787-9B53-168B-569510352FC8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1254" y="338" width="170" height="111"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="05B347C0-57F7-6AE2-86DC-DBDDCB54FE4C" otype="FKIndexAssociation" vid_source="581685F8-E45D-5248-ECDB-A349837EFE52" vid_target="1291ED00-3787-9B53-168B-569510352FC8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1551" y="416"/>
+<point x="1424" y="416"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="068137BC-6228-EB88-A6A9-B79260C1D8CC" otype="FKIndexAssociation" vid_source="9196E64D-3312-7B45-FBBD-3D2B03110EF9" vid_target="D5B05A90-790B-CE42-8D61-5D1A27339B52">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="727" y="737"/>
+<point x="895" y="433"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="1AE9F3E1-BB07-5F1D-79BB-1A03974E4FCF" otype="FKIndexAssociation" vid_source="ED97B599-51AE-EA82-E241-66800DBC39B9" vid_target="17DAB447-3398-D1C0-FF03-05A9A8A997D8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="415" y="593"/>
+<point x="852" y="593"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="28F7F6F5-2974-CA4F-74A3-02551253CC6E" otype="FKIndexAssociation" vid_source="1291ED00-3787-9B53-168B-569510352FC8" vid_target="85E5A72E-644A-3CFD-6D63-B88E43B2ACEA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1333" y="338"/>
+<point x="642" y="109"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="458ADD3D-327C-C6A8-F46F-1CA7FE653916" otype="FKIndexAssociation" vid_source="3CA579C4-477A-36B9-7228-11E6FCBFF490" vid_target="47E953A9-5A9F-1F26-CAF7-E5124394F0A4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="410" y="316"/>
+<point x="734" y="316"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="49B6A6E8-AC52-4B31-BC17-5B9D3ED90D9B" otype="FKIndexAssociation" vid_source="9196E64D-3312-7B45-FBBD-3D2B03110EF9" vid_target="E76AFEF4-E345-D64D-A795-3ED63A65A79F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="782" y="777"/>
+<point x="959" y="777"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="569E5CD8-5223-DAF9-F1F1-B40B965226F9" otype="FKIndexAssociation" vid_source="3CA579C4-477A-36B9-7228-11E6FCBFF490" vid_target="4BAC7F02-12E3-A71B-200C-98175037DC56">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="410" y="399"/>
+<point x="600" y="399"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="57FE5583-205B-1AC9-C28E-19BD118FAC45" otype="FKIndexAssociation" vid_source="1291ED00-3787-9B53-168B-569510352FC8" vid_target="D5B05A90-790B-CE42-8D61-5D1A27339B52">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1254" y="385"/>
+<point x="1011" y="385"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="7538AC64-10A4-F3CC-6BB1-74FC3C264B2A" otype="FKIndexAssociation" vid_source="ED97B599-51AE-EA82-E241-66800DBC39B9" vid_target="B7CF2DC4-9DC7-3626-4A26-F92348823C4A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="414" y="556"/>
+<point x="442" y="538"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="7F5D542A-FB6F-4CA3-DFD0-40AC8737A57C" otype="FKIndexAssociation" vid_source="17DAB447-3398-D1C0-FF03-05A9A8A997D8" vid_target="B7CF2DC4-9DC7-3626-4A26-F92348823C4A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="852" y="498"/>
+<point x="612" y="498"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="93661DEB-2E4B-3CF8-2686-176CB9AFB05C" otype="FKIndexAssociation" vid_source="9196E64D-3312-7B45-FBBD-3D2B03110EF9" vid_target="ED97B599-51AE-EA82-E241-66800DBC39B9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="612" y="751"/>
+<point x="415" y="653"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="94D80D31-E398-5E76-5555-D58D36AE783C" otype="FKIndexAssociation" vid_source="3CA579C4-477A-36B9-7228-11E6FCBFF490" vid_target="3CA579C4-477A-36B9-7228-11E6FCBFF490">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="240" y="409"/>
+<point x="194" y="409"/>
+<point x="194" y="492"/>
+<point x="284" y="492"/>
+<point x="284" y="466"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="A34B96C5-690C-0961-66C7-29A52DD2A143" otype="FKIndexAssociation" vid_source="B7CF2DC4-9DC7-3626-4A26-F92348823C4A" vid_target="4BAC7F02-12E3-A71B-200C-98175037DC56">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="612" y="440"/>
+<point x="600" y="440"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="A9CEF8E5-ABE5-6E73-D528-3E545BC64C9E" otype="FKIndexAssociation" vid_source="3CA579C4-477A-36B9-7228-11E6FCBFF490" vid_target="85E5A72E-644A-3CFD-6D63-B88E43B2ACEA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="384" y="307"/>
+<point x="530" y="130"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="AA534E65-1E0A-F1D1-2FA8-A3C87F3AA0B0" otype="FKIndexAssociation" vid_source="1291ED00-3787-9B53-168B-569510352FC8" vid_target="47E953A9-5A9F-1F26-CAF7-E5124394F0A4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1254" y="373"/>
+<point x="904" y="290"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="BC5BDC6E-9EF8-B635-7132-86EBB049577F" otype="FKIndexAssociation" vid_source="17DAB447-3398-D1C0-FF03-05A9A8A997D8" vid_target="E76AFEF4-E345-D64D-A795-3ED63A65A79F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="990" y="601"/>
+<point x="990" y="708"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="CBD801DA-2BC2-A8AB-D674-290F075173CC" otype="FKIndexAssociation" vid_source="3CA579C4-477A-36B9-7228-11E6FCBFF490" vid_target="ED97B599-51AE-EA82-E241-66800DBC39B9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="327" y="466"/>
+<point x="327" y="556"/>
+</points>
+</Connector>
+</connectors>
+</mainView>
+</relationalModel>
