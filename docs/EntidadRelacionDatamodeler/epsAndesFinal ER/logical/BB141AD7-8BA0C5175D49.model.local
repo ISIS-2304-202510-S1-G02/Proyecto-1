@@ -8,9 +8,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBB25C1A-CA3C-E3C1-A745-E7FE0F2C6477" name="Afiliado">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:01:53 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -24,9 +24,9 @@
 <Attribute name="tipoDocumento" id="7FF85ED2-DE62-D5A6-FCFC-07E1922C6795">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:02:11 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,9 +36,9 @@
 <Attribute name="numeroDocumento" id="9B2EBD76-9091-F9E2-AC69-71E06C57FF7D">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:02:53 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,9 +48,9 @@
 <Attribute name="nombre" id="D9ADCA8D-B8D3-7655-F9DA-4C5924A689EF">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:03:19 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,9 +60,9 @@
 <Attribute name="apellido" id="FE341BC3-0F07-8768-CEC4-AC4D7A7563D4">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:03:29 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -72,9 +72,9 @@
 <Attribute name="fechaDeNacimiento" id="40640728-7D0C-A5BA-6392-F98F62845EFA">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:03:39 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,9 +84,9 @@
 <Attribute name="direccion" id="45A4977D-E420-D7CA-F586-8A82E13C7353">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:03:57 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -96,9 +96,9 @@
 <Attribute name="telefono" id="1A1223AE-B07D-825D-7F9B-E21741A1649F">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:04:11 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -108,9 +108,9 @@
 <Attribute name="tipo" id="A0407D2A-56CE-D53E-5825-9D59B2621DEB">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:04:24 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -120,9 +120,9 @@
 <Attribute name="relacion" id="686B4C79-B084-F21E-CC12-9F62BC0EFFB1">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:05:02 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -132,9 +132,9 @@
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:32:50 UTC</createdTime>
 <generatorID>F4F0A4B7-B52D-272C-DC21-8F9A1DA80E3F</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>7FF85ED2-DE62-D5A6-FCFC-07E1922C6795</referedAttribute>
@@ -147,9 +147,9 @@
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:32:50 UTC</createdTime>
 <generatorID>F4F0A4B7-B52D-272C-DC21-8F9A1DA80E3F</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>9B2EBD76-9091-F9E2-AC69-71E06C57FF7D</referedAttribute>
@@ -163,10 +163,9 @@
 <identifier id="64C302FC-D112-DCDF-CDC3-771F6C23D412" name="Afiliado PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:03:09 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -178,9 +177,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BD8CA16-9FF5-2E91-9212-B317BA127207" name="Cita">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:06:14 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -194,9 +193,9 @@
 <Attribute name="ID_cita" id="CE5927D0-A0EF-1718-FB9D-CA2B871BA691">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:06:19 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -206,9 +205,9 @@
 <Attribute name="servicio" id="5D059A7E-5F0F-E97F-6010-BBDF3ABD8235">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:06:43 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -218,9 +217,9 @@
 <Attribute name="horario" id="99484604-7647-56A4-7F46-E209E8409EFE">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:07:27 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -230,9 +229,9 @@
 <Attribute name="vigencia" id="415AD608-B719-7077-EA26-0961E12CDDB7">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:07:43 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -242,9 +241,9 @@
 <Attribute name="tipoConsulta" id="A520EF81-80A2-208B-96C4-151F002904E1">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:07:56 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -255,9 +254,9 @@
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:19:38 UTC</createdTime>
 <generatorID>C1999DFE-19A6-E4FF-408D-1D324079483C</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <referedAttribute>9B2EBD76-9091-F9E2-AC69-71E06C57FF7D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -269,41 +268,39 @@
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:31:33 UTC</createdTime>
 <generatorID>24D47A0D-8EB9-5F62-9EEC-03ADBC59FDBD</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <referedAttribute>EBB53842-6767-D884-4B51-2465BBE8D60F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="identificacion" id="5D33B723-69E0-BE8F-7CFA-490BC5AC0776">
+<Attribute name="numeroRegistroMedico" id="EFD1D885-CE9C-7881-4AD5-F86A353AF14F">
 <createdBy>dialm</createdBy>
-<createdTime>2025-02-16 17:32:17 UTC</createdTime>
+<createdTime>2025-02-16 18:42:37 UTC</createdTime>
 <generatorID>353F0C22-C502-E4FC-FDE4-949BF4976D15</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
-<referedAttribute>F4BDBC3C-2399-760E-BE51-FC20DFBB7FFC</referedAttribute>
+<referedAttribute>BD63468C-7D32-3A89-4120-81B6D02ABCF9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_especialidad" id="0545B7AD-68C1-5111-8112-80350B0C793E">
+<Attribute name="ID_servicio" id="318EC0F3-A4F7-90A4-6601-6B66F1633828">
 <createdBy>dialm</createdBy>
-<createdTime>2025-02-16 17:32:17 UTC</createdTime>
-<generatorID>353F0C22-C502-E4FC-FDE4-949BF4976D15</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<createdTime>2025-02-16 19:06:04 UTC</createdTime>
+<generatorID>940C53B2-7E25-2250-2C88-80978A97DDDE</generatorID>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
-<referedAttribute>47AFB65F-CDAC-926A-DE94-6F5A43484A26</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<referedAttribute>15F0BF87-0975-2322-D842-9D37F729D648</referedAttribute>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -311,10 +308,9 @@
 <identifier id="9359DADA-DBAA-E254-5F32-2BCDE63B5B7A" name="Cita PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:06:42 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -326,9 +322,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0FCE431-7819-B2DF-185D-379E2B3B0395" name="Especialidad">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:00:31 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -342,9 +338,9 @@
 <Attribute name="ID_especialidad" id="911B43ED-DE8D-E6D9-E3D1-3E08A5F95564">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:00:37 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -354,9 +350,9 @@
 <Attribute name="nombre" id="98EA5515-B961-2EC2-FA60-C624CF82F729">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:00:46 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -368,10 +364,9 @@
 <identifier id="F44C7646-F371-4304-E2B7-52E833D2537A" name="Especialidad PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:00:44 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -383,9 +378,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC9D4E4E-71BE-FCF9-FE2F-54AA23D033A0" name="Hospitalización">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:12:55 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -399,9 +394,9 @@
 <Attribute name="ID_hospitalizacion" id="E44791F8-2544-535F-3C1D-FD0B75E4991F">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:23:53 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -409,9 +404,9 @@
 <Attribute name="fechaInicio" id="3D79A43D-B56A-050F-B988-86DA2D55CA6D">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:13:04 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -421,9 +416,9 @@
 <Attribute name="fechaFin" id="A2107C9C-333C-5857-653A-3C5F311B2B2B">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:13:13 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -434,9 +429,9 @@
 <Attribute name="razon" id="8550D946-326D-4532-A967-A32F645B8997">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:13:38 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -446,9 +441,9 @@
 <Attribute name="diagnostico" id="FCF8E908-EDBF-72DE-94F1-FCDF41FD07CE">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:13:53 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -459,9 +454,9 @@
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:24:14 UTC</createdTime>
 <generatorID>81F2A6F6-78D0-DEBC-358D-A9BAAEAEC8AD</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <referedAttribute>9B2EBD76-9091-F9E2-AC69-71E06C57FF7D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -469,29 +464,15 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="identificacion" id="04C6D6FA-F1C0-65A7-1F45-558315DBD8B6">
+<Attribute name="numeroRegistroMedico" id="F632B390-CBF6-6408-3DE1-009B693C2C3C">
 <createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:29:48 UTC</createdTime>
+<createdTime>2025-02-16 18:42:37 UTC</createdTime>
 <generatorID>6ECA4009-CBD0-BF56-25B2-8EC0B3669493</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
-<referedAttribute>F4BDBC3C-2399-760E-BE51-FC20DFBB7FFC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_especialidad" id="5756160B-F4A7-B36D-B83C-09E94C8ED110">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:29:48 UTC</createdTime>
-<generatorID>6ECA4009-CBD0-BF56-25B2-8EC0B3669493</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<referedAttribute>47AFB65F-CDAC-926A-DE94-6F5A43484A26</referedAttribute>
+<referedAttribute>BD63468C-7D32-3A89-4120-81B6D02ABCF9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -502,10 +483,9 @@
 <identifier id="EA54F777-57CA-E2C9-8B0C-8EC8C9CB6721" name="Hospitalización PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:24:02 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -517,9 +497,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="495346F6-5492-987D-94AD-4F40E5120449" name="IPS">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:25:51 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -533,9 +513,9 @@
 <Attribute name="NIT" id="EBB53842-6767-D884-4B51-2465BBE8D60F">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:25:59 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -544,9 +524,9 @@
 <Attribute name="nombre" id="C0F6B088-C786-C48B-9ACE-3D38EF5CAE79">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:26:57 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -556,9 +536,9 @@
 <Attribute name="direccion" id="0BE4BDE0-EC3A-B44D-3A9B-D7AA94AC061E">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:27:37 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -569,23 +549,13 @@
 <Attribute name="telefono" id="8EE5F0ED-376E-9688-8403-99D70E4849D1">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:29:36 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="serviciosDeSalud" id="B8139E2C-574B-9FF4-B640-8CBCD072338F">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-14 02:29:50 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -593,10 +563,9 @@
 <identifier id="388D7873-A1F0-61C8-D71C-CFB6D8F84998" name="IPS PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:26:56 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -608,9 +577,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="873B8362-A023-9CA9-4199-7A0F9D653683" name="Medico">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:47:31 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -624,9 +593,9 @@
 <Attribute name="nombre" id="ED51E670-3190-7700-2381-1AC89E910F26">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:55:34 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -636,9 +605,9 @@
 <Attribute name="identificacion" id="F4BDBC3C-2399-760E-BE51-FC20DFBB7FFC">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:55:52 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -648,24 +617,10 @@
 <Attribute name="numeroRegistroMedico" id="BD63468C-7D32-3A89-4120-81B6D02ABCF9">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:56:05 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_especialidad" id="47AFB65F-CDAC-926A-DE94-6F5A43484A26">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:17:03 UTC</createdTime>
-<generatorID>C185B696-CCCE-39C3-6126-3F68EC5794AE</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<referedAttribute>911B43ED-DE8D-E6D9-E3D1-3E08A5F95564</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -676,15 +631,13 @@
 <identifier id="32596C1B-F8B0-FC78-195D-63C5440468AC" name="Medico PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:56:10 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F4BDBC3C-2399-760E-BE51-FC20DFBB7FFC</attributeRef>
-<attributeRef>47AFB65F-CDAC-926A-DE94-6F5A43484A26</attributeRef>
+<attributeRef>BD63468C-7D32-3A89-4120-81B6D02ABCF9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
@@ -692,9 +645,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23EEDF3F-F7E4-C520-6007-D61F6C4EC9ED" name="Orden De Servicio">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:21:58 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -708,9 +661,9 @@
 <Attribute name="ID_orden" id="C15FC7F5-9E69-164D-984F-DAECBFBEA307">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:22:41 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -720,9 +673,9 @@
 <Attribute name="fecha" id="91B57412-D94F-DFD3-20F7-2350D85B23A2">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:23:10 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -732,9 +685,9 @@
 <Attribute name="estado" id="949718DC-CCFE-B7F0-CA7C-AE7666B63352">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:23:22 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -745,9 +698,9 @@
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:25:02 UTC</createdTime>
 <generatorID>EC108D13-A5C3-3042-B92D-C9733B6E038D</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <referedAttribute>9B2EBD76-9091-F9E2-AC69-71E06C57FF7D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -755,56 +708,30 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_prestacion" id="967A8E47-D650-FCAF-3FCF-86FD232C77F9">
+<Attribute name="numeroRegistroMedico" id="8FB9E8B9-10F7-7DB0-6112-FAFE13BFE7E8">
 <createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:13:38 UTC</createdTime>
-<generatorID>906304C0-E295-91B1-7F9D-A4BC1F933813</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<createdTime>2025-02-16 18:42:37 UTC</createdTime>
+<generatorID>BDE6507B-05EB-A7E0-DB51-8214C8A55399</generatorID>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
+</engineerTo>
+<referedAttribute>BD63468C-7D32-3A89-4120-81B6D02ABCF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_prestacion" id="BB863D65-6453-2F76-9A35-560F548AACA7">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 19:15:27 UTC</createdTime>
+<generatorID>09E793E8-26D9-E281-9909-54526F63BF63</generatorID>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
+<engineerTo>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <referedAttribute>95C8E715-6D16-B6B0-855D-0FA2EDE36B7A</referedAttribute>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_servicio" id="592350F6-501A-C355-AD47-058A77F793D0">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:13:38 UTC</createdTime>
-<generatorID>906304C0-E295-91B1-7F9D-A4BC1F933813</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<referedAttribute>91DC9D84-6C4D-CCF1-FC7B-9D5C5620A30B</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="identificacion" id="13262EFA-20F5-0D9F-5216-4D96B05101DC">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-16 17:31:27 UTC</createdTime>
-<generatorID>BDE6507B-05EB-A7E0-DB51-8214C8A55399</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<referedAttribute>F4BDBC3C-2399-760E-BE51-FC20DFBB7FFC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_especialidad" id="F5E291A2-0CF1-2066-00C9-4A0D5B6DD0DE">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-16 17:31:27 UTC</createdTime>
-<generatorID>BDE6507B-05EB-A7E0-DB51-8214C8A55399</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<referedAttribute>47AFB65F-CDAC-926A-DE94-6F5A43484A26</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -812,10 +739,9 @@
 <identifier id="86B5E4AB-3202-AB45-A4CC-0DDD18D6855F" name="Orden De Servicio PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:22:50 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -828,9 +754,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07164267-AB07-D861-9348-779A1F2F6552" name="PrestacionDeServicio">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:11:44 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -844,9 +770,9 @@
 <Attribute name="ID_prestacion" id="95C8E715-6D16-B6B0-855D-0FA2EDE36B7A">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:12:08 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -854,22 +780,10 @@
 <Attribute name="servicioRealizado" id="D9BE961F-59A8-D4AA-B4E6-A104D7B3F81A">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:11:59 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_servicio" id="91DC9D84-6C4D-CCF1-FC7B-9D5C5620A30B">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:12:29 UTC</createdTime>
-<generatorID>94D4B6E6-6EB0-2BD1-03DF-D3EB1337DA14</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<referedAttribute>15F0BF87-0975-2322-D842-9D37F729D648</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -877,9 +791,9 @@
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:12:49 UTC</createdTime>
 <generatorID>2570D341-C184-188B-BBC9-255AC1D4105A</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <referedAttribute>CE5927D0-A0EF-1718-FB9D-CA2B871BA691</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -892,15 +806,13 @@
 <identifier id="EBC6651A-0EDF-5A4E-5C51-CC8BB1C6CB56" name="PrestacionDeServicio PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:12:10 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>95C8E715-6D16-B6B0-855D-0FA2EDE36B7A</attributeRef>
-<attributeRef>91DC9D84-6C4D-CCF1-FC7B-9D5C5620A30B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
@@ -908,9 +820,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66DCD95F-E6FD-A2B1-B7C2-E04E337FC787" name="RecetaMedica">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:01:13 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -924,9 +836,9 @@
 <Attribute name="ID_receta" id="AA3E5933-862F-41F8-D427-D40CF47947E5">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:01:27 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -936,9 +848,9 @@
 <Attribute name="fecha" id="445C046F-6BD6-D153-C3B0-F6D3E6D2D1F7">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:01:37 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -948,9 +860,9 @@
 <Attribute name="estado" id="D5441C7A-40A2-580A-31FE-E0CF3164A1BC">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:02:44 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -960,38 +872,10 @@
 <Attribute name="medicamento" id="46A966BC-479F-51A4-B9F0-9FA9E2000CE1">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:05:05 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="identificacion" id="10E4B1E7-A29F-69DF-7CB0-80603C66888F">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:25:56 UTC</createdTime>
-<generatorID>0C868778-6FAF-CF99-ED9F-43551BDF0E7B</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<referedAttribute>F4BDBC3C-2399-760E-BE51-FC20DFBB7FFC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_especialidad" id="EC407270-B1A1-CEC7-456C-27B232E56C84">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:25:56 UTC</createdTime>
-<generatorID>0C868778-6FAF-CF99-ED9F-43551BDF0E7B</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<referedAttribute>47AFB65F-CDAC-926A-DE94-6F5A43484A26</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -1001,11 +885,25 @@
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:26:59 UTC</createdTime>
 <generatorID>B0B5AE5D-A7C9-C208-6E75-72579E996EF4</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <referedAttribute>9B2EBD76-9091-F9E2-AC69-71E06C57FF7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroRegistroMedico" id="8E4C72C0-7563-E957-405B-FF5EACEEBF99">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 18:42:37 UTC</createdTime>
+<generatorID>0C868778-6FAF-CF99-ED9F-43551BDF0E7B</generatorID>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
+<engineerTo>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
+</engineerTo>
+<referedAttribute>BD63468C-7D32-3A89-4120-81B6D02ABCF9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -1016,10 +914,9 @@
 <identifier id="F39B38C3-35BB-134F-CEF8-064925038426" name="RecetaMedica PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 03:01:32 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1031,9 +928,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49CC690A-21B0-8C38-C18A-9BDB03C4B59C" name="ServicioDeSalud">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:05:40 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -1047,9 +944,9 @@
 <Attribute name="ID_servicio" id="15F0BF87-0975-2322-D842-9D37F729D648">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:06:15 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -1057,9 +954,9 @@
 <Attribute name="tipo" id="8A96F654-C10C-F1CF-8F45-82383DF4E968">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:06:07 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -1067,25 +964,21 @@
 <Attribute name="nombre" id="A8F35ABB-C57C-C497-20B0-BD60AC9B550C">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:06:10 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_cita" id="EC585725-11BF-F6FA-0159-C64452943A68">
+<Attribute name="descripcion" id="58E4CAEE-3EB8-84F9-EA2D-9BC8B902B548">
 <createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:13:50 UTC</createdTime>
-<generatorID>26A75FFC-669E-40F1-4804-3954CD1040C0</generatorID>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<createdTime>2025-02-16 19:23:31 UTC</createdTime>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
-<referedAttribute>CE5927D0-A0EF-1718-FB9D-CA2B871BA691</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -1093,10 +986,9 @@
 <identifier id="3191BE06-40E9-2D3F-D865-EDE2A2042301" name="ServicioDeSalud PK">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:06:21 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="false"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -1110,9 +1002,9 @@
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="afiliadoRecetasMedicas" directorySegmentName="seg_0" id="B0B5AE5D-A7C9-C208-6E75-72579E996EF4">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:26:59 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>64C302FC-D112-DCDF-CDC3-771F6C23D412</sourcePk>
 <identifying>false</identifying>
@@ -1128,9 +1020,9 @@
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="afiliadosRelacionados" directorySegmentName="seg_0" id="F4F0A4B7-B52D-272C-DC21-8F9A1DA80E3F">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:32:50 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <targetPk>64C302FC-D112-DCDF-CDC3-771F6C23D412</targetPk>
 <identifying>false</identifying>
@@ -1146,9 +1038,9 @@
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="citaPrestacion" directorySegmentName="seg_0" id="2570D341-C184-188B-BBC9-255AC1D4105A">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:12:49 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>9359DADA-DBAA-E254-5F32-2BCDE63B5B7A</sourcePk>
 <identifying>false</identifying>
@@ -1164,9 +1056,9 @@
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="citasDisponibles" directorySegmentName="seg_0" id="24D47A0D-8EB9-5F62-9EEC-03ADBC59FDBD">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:31:33 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>388D7873-A1F0-61C8-D71C-CFB6D8F84998</sourcePk>
 <identifying>false</identifying>
@@ -1181,30 +1073,12 @@
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="especialidades" directorySegmentName="seg_0" id="C185B696-CCCE-39C3-6126-3F68EC5794AE">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:17:03 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<sourcePk>F44C7646-F371-4304-E2B7-52E833D2537A</sourcePk>
-<identifying>true</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>A0FCE431-7819-B2DF-185D-379E2B3B0395</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>873B8362-A023-9CA9-4199-7A0F9D653683</targetEntity>
-<transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
-</Relationship>
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="hospitalizacionesAfiliado" directorySegmentName="seg_0" id="81F2A6F6-78D0-DEBC-358D-A9BAAEAEC8AD">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:24:14 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>64C302FC-D112-DCDF-CDC3-771F6C23D412</sourcePk>
 <identifying>false</identifying>
@@ -1220,9 +1094,9 @@
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="hospitalizacionesMedico" directorySegmentName="seg_0" id="6ECA4009-CBD0-BF56-25B2-8EC0B3669493">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:29:48 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>32596C1B-F8B0-FC78-195D-63C5440468AC</sourcePk>
 <identifying>false</identifying>
@@ -1238,9 +1112,9 @@
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="ipsMedicos" directorySegmentName="seg_0" id="7423C9D1-C865-A9DE-81E3-96128CD01F94">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:31:56 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
@@ -1252,12 +1126,29 @@
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="medicoEspecialidades" directorySegmentName="seg_0" id="A697C00E-59C6-8048-8D8F-A33B69F506B8">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 19:37:55 UTC</createdTime>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
+<engineerTo>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>873B8362-A023-9CA9-4199-7A0F9D653683</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A0FCE431-7819-B2DF-185D-379E2B3B0395</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relationship>
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="ordenesMedico" directorySegmentName="seg_0" id="BDE6507B-05EB-A7E0-DB51-8214C8A55399">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-16 17:31:27 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>32596C1B-F8B0-FC78-195D-63C5440468AC</sourcePk>
 <identifying>false</identifying>
@@ -1273,9 +1164,9 @@
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="recetasCreadas" directorySegmentName="seg_0" id="0C868778-6FAF-CF99-ED9F-43551BDF0E7B">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:25:56 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>32596C1B-F8B0-FC78-195D-63C5440468AC</sourcePk>
 <identifying>false</identifying>
@@ -1288,31 +1179,12 @@
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="906304C0-E295-91B1-7F9D-A4BC1F933813">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:13:36 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<sourcePk>86B5E4AB-3202-AB45-A4CC-0DDD18D6855F</sourcePk>
-<targetPk>EBC6651A-0EDF-5A4E-5C51-CC8BB1C6CB56</targetPk>
-<identifying>false</identifying>
-<optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>23EEDF3F-F7E4-C520-6007-D61F6C4EC9ED</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
-<targetEntity>07164267-AB07-D861-9348-779A1F2F6552</targetEntity>
-<transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
-</Relationship>
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="353F0C22-C502-E4FC-FDE4-949BF4976D15">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-16 17:32:17 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>32596C1B-F8B0-FC78-195D-63C5440468AC</sourcePk>
 <identifying>false</identifying>
@@ -1325,12 +1197,66 @@
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="940C53B2-7E25-2250-2C88-80978A97DDDE">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 19:06:04 UTC</createdTime>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
+<engineerTo>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
+</engineerTo>
+<sourcePk>3191BE06-40E9-2D3F-D865-EDE2A2042301</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49CC690A-21B0-8C38-C18A-9BDB03C4B59C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1BD8CA16-9FF5-2E91-9212-B317BA127207</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_24" directorySegmentName="seg_0" id="09E793E8-26D9-E281-9909-54526F63BF63">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 19:06:36 UTC</createdTime>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
+<engineerTo>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
+</engineerTo>
+<sourcePk>EBC6651A-0EDF-5A4E-5C51-CC8BB1C6CB56</sourcePk>
+<targetPk>86B5E4AB-3202-AB45-A4CC-0DDD18D6855F</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07164267-AB07-D861-9348-779A1F2F6552</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>23EEDF3F-F7E4-C520-6007-D61F6C4EC9ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="5F3753D3-F4FE-75DE-8D49-040868E511EB">
+<createdBy>dialm</createdBy>
+<createdTime>2025-02-16 19:11:27 UTC</createdTime>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
+<engineerTo>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>23EEDF3F-F7E4-C520-6007-D61F6C4EC9ED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>49CC690A-21B0-8C38-C18A-9BDB03C4B59C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relationship>
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="C1999DFE-19A6-E4FF-408D-1D324079483C">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:19:38 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>64C302FC-D112-DCDF-CDC3-771F6C23D412</sourcePk>
 <identifying>false</identifying>
@@ -1348,9 +1274,9 @@
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="EC108D13-A5C3-3042-B92D-C9733B6E038D">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-14 02:25:02 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <sourcePk>64C302FC-D112-DCDF-CDC3-771F6C23D412</sourcePk>
 <identifying>true</identifying>
@@ -1365,48 +1291,12 @@
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="servicioCita" directorySegmentName="seg_0" id="26A75FFC-669E-40F1-4804-3954CD1040C0">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:13:50 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<sourcePk>9359DADA-DBAA-E254-5F32-2BCDE63B5B7A</sourcePk>
-<identifying>false</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>1BD8CA16-9FF5-2E91-9212-B317BA127207</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
-<targetEntity>49CC690A-21B0-8C38-C18A-9BDB03C4B59C</targetEntity>
-<transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
-</Relationship>
-<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="servicioPrestaciones" directorySegmentName="seg_0" id="94D4B6E6-6EB0-2BD1-03DF-D3EB1337DA14">
-<createdBy>dialm</createdBy>
-<createdTime>2025-02-15 21:12:29 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
-<engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
-</engineerTo>
-<sourcePk>3191BE06-40E9-2D3F-D865-EDE2A2042301</sourcePk>
-<identifying>true</identifying>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>49CC690A-21B0-8C38-C18A-9BDB03C4B59C</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
-<targetEntity>07164267-AB07-D861-9348-779A1F2F6552</targetEntity>
-<transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
-</Relationship>
 <Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="serviciosIps" directorySegmentName="seg_0" id="6CB109C0-FB23-5114-9B4A-3D2122821C1B">
 <createdBy>dialm</createdBy>
 <createdTime>2025-02-15 21:31:13 UTC</createdTime>
-<ownerDesignName>epsandeserfinal</ownerDesignName>
+<ownerDesignName>epsAndesFinal ER</ownerDesignName>
 <engineerTo>
-<item key="C858D43C-BCF6-99E7-E20C-BCCE9775A0A7" value="true"/>
+<item key="6643997D-9EBF-F326-7FCE-EB89ECA37A80" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
@@ -1436,35 +1326,35 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="07164267-AB07-D861-9348-779A1F2F6552" otype="Entity" vid="57EE3929-64CA-1CD9-A63B-3AA86BFBE170">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="422" y="449" width="170" height="112"/>
+<bounds x="357" y="423" width="171" height="114"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1BD8CA16-9FF5-2E91-9212-B317BA127207" otype="Entity" vid="388256D9-6669-80B2-0DCA-D71E082EB269">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="248" y="629" width="170" height="112"/>
+<bounds x="211" y="619" width="170" height="112"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="23EEDF3F-F7E4-C520-6007-D61F6C4EC9ED" otype="Entity" vid="5B6B84C1-F714-3B8E-4063-C7BB6003FB15">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="618" y="318" width="170" height="112"/>
+<bounds x="602" y="286" width="170" height="112"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="495346F6-5492-987D-94AD-4F40E5120449" otype="Entity" vid="81881BBA-8FC8-AF3B-A77F-3823773B5474">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="869" y="695" width="170" height="112"/>
+<bounds x="927" y="639" width="170" height="112"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="49CC690A-21B0-8C38-C18A-9BDB03C4B59C" otype="Entity" vid="0A0EBD08-DB26-FEEF-C44C-EEC0DBE0E6C3">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="781" y="433" width="170" height="112"/>
+<bounds x="620" y="453" width="170" height="112"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="66DCD95F-E6FD-A2B1-B7C2-E04E337FC787" otype="Entity" vid="4F8AB240-09A7-155C-90B1-330C34618765">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="675" y="182" width="170" height="111"/>
+<bounds x="593" y="147" width="170" height="111"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="873B8362-A023-9CA9-4199-7A0F9D653683" otype="Entity" vid="80BA7C05-F517-6DEE-E370-F89FB4DD9D9E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1254" y="338" width="170" height="111"/>
+<bounds x="1461" y="322" width="170" height="111"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A0FCE431-7819-B2DF-185D-379E2B3B0395" otype="Entity" vid="7475F50B-F1B2-D021-2683-91778F09478E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1551" y="384" width="170" height="111"/>
+<bounds x="1717" y="310" width="170" height="111"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DC9D4E4E-71BE-FCF9-FE2F-54AA23D033A0" otype="Entity" vid="67746A3B-C42E-8018-3059-BB1D568A23F8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -1472,17 +1362,26 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EBB25C1A-CA3C-E3C1-A745-E7FE0F2C6477" otype="Entity" vid="49E155FD-0B24-3AA9-8B82-EEDC49078E62">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="240" y="307" width="170" height="159"/>
+<bounds x="160" y="295" width="170" height="159"/>
 </OView>
 </objectViews>
 <connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="09E793E8-26D9-E281-9909-54526F63BF63" otype="Relation" vid_source="57EE3929-64CA-1CD9-A63B-3AA86BFBE170" vid_target="5B6B84C1-F714-3B8E-4063-C7BB6003FB15">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="528" y="431"/>
+<point x="617" y="398"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0C868778-6FAF-CF99-ED9F-43551BDF0E7B" otype="Relation" vid_source="80BA7C05-F517-6DEE-E370-F89FB4DD9D9E" vid_target="4F8AB240-09A7-155C-90B1-330C34618765">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1254" y="370"/>
-<point x="845" y="260"/>
+<point x="1461" y="360"/>
+<point x="763" y="219"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="24D47A0D-8EB9-5F62-9EEC-03ADBC59FDBD" otype="Relation" vid_source="81881BBA-8FC8-AF3B-A77F-3823773B5474" vid_target="388256D9-6669-80B2-0DCA-D71E082EB269">
@@ -1490,8 +1389,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="869" y="733"/>
-<point x="418" y="733"/>
+<point x="927" y="722"/>
+<point x="381" y="716"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2570D341-C184-188B-BBC9-255AC1D4105A" otype="Relation" vid_source="388256D9-6669-80B2-0DCA-D71E082EB269" vid_target="57EE3929-64CA-1CD9-A63B-3AA86BFBE170">
@@ -1499,17 +1398,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="387" y="629"/>
-<point x="452" y="561"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="26A75FFC-669E-40F1-4804-3954CD1040C0" otype="Relation" vid_source="388256D9-6669-80B2-0DCA-D71E082EB269" vid_target="0A0EBD08-DB26-FEEF-C44C-EEC0DBE0E6C3">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="418" y="653"/>
-<point x="781" y="520"/>
+<point x="369" y="619"/>
+<point x="369" y="537"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="353F0C22-C502-E4FC-FDE4-949BF4976D15" otype="Relation" vid_source="80BA7C05-F517-6DEE-E370-F89FB4DD9D9E" vid_target="388256D9-6669-80B2-0DCA-D71E082EB269">
@@ -1517,8 +1407,17 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1271" y="449"/>
-<point x="418" y="713"/>
+<point x="1461" y="397"/>
+<point x="381" y="654"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5F3753D3-F4FE-75DE-8D49-040868E511EB" otype="Relation" vid_source="5B6B84C1-F714-3B8E-4063-C7BB6003FB15" vid_target="0A0EBD08-DB26-FEEF-C44C-EEC0DBE0E6C3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="696" y="398"/>
+<point x="696" y="453"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6CB109C0-FB23-5114-9B4A-3D2122821C1B" otype="Relation" vid_source="81881BBA-8FC8-AF3B-A77F-3823773B5474" vid_target="0A0EBD08-DB26-FEEF-C44C-EEC0DBE0E6C3">
@@ -1526,8 +1425,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="910" y="695"/>
-<point x="910" y="545"/>
+<point x="927" y="643"/>
+<point x="790" y="560"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6ECA4009-CBD0-BF56-25B2-8EC0B3669493" otype="Relation" vid_source="80BA7C05-F517-6DEE-E370-F89FB4DD9D9E" vid_target="67746A3B-C42E-8018-3059-BB1D568A23F8">
@@ -1535,8 +1434,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1333" y="338"/>
-<point x="642" y="109"/>
+<point x="1461" y="351"/>
+<point x="642" y="100"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="7423C9D1-C865-A9DE-81E3-96128CD01F94" otype="Relation" vid_source="80BA7C05-F517-6DEE-E370-F89FB4DD9D9E" vid_target="81881BBA-8FC8-AF3B-A77F-3823773B5474">
@@ -1544,8 +1443,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1376" y="449"/>
-<point x="1014" y="695"/>
+<point x="1461" y="428"/>
+<point x="1097" y="644"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="81F2A6F6-78D0-DEBC-358D-A9BAAEAEC8AD" otype="Relation" vid_source="49E155FD-0B24-3AA9-8B82-EEDC49078E62" vid_target="67746A3B-C42E-8018-3059-BB1D568A23F8">
@@ -1553,26 +1452,26 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="384" y="307"/>
-<point x="530" y="130"/>
+<point x="327" y="295"/>
+<point x="499" y="130"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="906304C0-E295-91B1-7F9D-A4BC1F933813" otype="Relation" vid_source="5B6B84C1-F714-3B8E-4063-C7BB6003FB15" vid_target="57EE3929-64CA-1CD9-A63B-3AA86BFBE170">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="940C53B2-7E25-2250-2C88-80978A97DDDE" otype="Relation" vid_source="0A0EBD08-DB26-FEEF-C44C-EEC0DBE0E6C3" vid_target="388256D9-6669-80B2-0DCA-D71E082EB269">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="619" y="430"/>
-<point x="590" y="449"/>
+<point x="620" y="543"/>
+<point x="381" y="640"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="94D4B6E6-6EB0-2BD1-03DF-D3EB1337DA14" otype="Relation" vid_source="0A0EBD08-DB26-FEEF-C44C-EEC0DBE0E6C3" vid_target="57EE3929-64CA-1CD9-A63B-3AA86BFBE170">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A697C00E-59C6-8048-8D8F-A33B69F506B8" otype="Relation" vid_source="80BA7C05-F517-6DEE-E370-F89FB4DD9D9E" vid_target="7475F50B-F1B2-D021-2683-91778F09478E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="781" y="497"/>
-<point x="592" y="497"/>
+<point x="1631" y="386"/>
+<point x="1717" y="386"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B0B5AE5D-A7C9-C208-6E75-72579E996EF4" otype="Relation" vid_source="49E155FD-0B24-3AA9-8B82-EEDC49078E62" vid_target="4F8AB240-09A7-155C-90B1-330C34618765">
@@ -1580,8 +1479,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="410" y="357"/>
-<point x="675" y="266"/>
+<point x="330" y="340"/>
+<point x="593" y="236"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="BDE6507B-05EB-A7E0-DB51-8214C8A55399" otype="Relation" vid_source="80BA7C05-F517-6DEE-E370-F89FB4DD9D9E" vid_target="5B6B84C1-F714-3B8E-4063-C7BB6003FB15">
@@ -1589,17 +1488,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1254" y="384"/>
-<point x="788" y="384"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C185B696-CCCE-39C3-6126-3F68EC5794AE" otype="Relation" vid_source="7475F50B-F1B2-D021-2683-91778F09478E" vid_target="80BA7C05-F517-6DEE-E370-F89FB4DD9D9E">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="1551" y="416"/>
-<point x="1424" y="416"/>
+<point x="1461" y="375"/>
+<point x="772" y="375"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C1999DFE-19A6-E4FF-408D-1D324079483C" otype="Relation" vid_source="49E155FD-0B24-3AA9-8B82-EEDC49078E62" vid_target="388256D9-6669-80B2-0DCA-D71E082EB269">
@@ -1607,8 +1497,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="329" y="466"/>
-<point x="329" y="629"/>
+<point x="270" y="454"/>
+<point x="270" y="619"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="EC108D13-A5C3-3042-B92D-C9733B6E038D" otype="Relation" vid_source="49E155FD-0B24-3AA9-8B82-EEDC49078E62" vid_target="5B6B84C1-F714-3B8E-4063-C7BB6003FB15">
@@ -1616,8 +1506,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="410" y="374"/>
-<point x="618" y="374"/>
+<point x="330" y="361"/>
+<point x="602" y="361"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F4F0A4B7-B52D-272C-DC21-8F9A1DA80E3F" otype="Relation" vid_source="49E155FD-0B24-3AA9-8B82-EEDC49078E62" vid_target="49E155FD-0B24-3AA9-8B82-EEDC49078E62">
@@ -1625,11 +1515,11 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="240" y="409"/>
-<point x="194" y="409"/>
-<point x="194" y="492"/>
-<point x="284" y="492"/>
-<point x="284" y="466"/>
+<point x="160" y="397"/>
+<point x="114" y="397"/>
+<point x="114" y="480"/>
+<point x="204" y="480"/>
+<point x="204" y="454"/>
 </points>
 </Connector>
 </connectors>
